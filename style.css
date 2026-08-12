@@ -38,9 +38,63 @@ header {
 }
 
 .logo {
-    font-size: 30px;
-    font-weight: 900;
-    color: #fff;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-infinity-logo {
+    width: 55px;
+    height: 55px;
+    overflow: visible;
+}
+
+/* Main P */
+.logo-p {
+    fill: none;
+    stroke: #dcecff;
+    stroke-width: 9;
+    stroke-linecap: square;
+    stroke-linejoin: round;
+
+    filter:
+        drop-shadow(0 0 3px #ffffff)
+        drop-shadow(0 0 8px rgba(0, 132, 255, 0.8));
+
+    transition: all 0.3s ease;
+}
+
+/* Infinity loop */
+.logo-infinity {
+    fill: none;
+    stroke: #168cff;
+    stroke-width: 7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+
+    filter:
+        drop-shadow(0 0 4px #168cff)
+        drop-shadow(0 0 10px rgba(0, 119, 255, 0.7));
+
+    transition: all 0.3s ease;
+}
+
+/* Hover */
+.logo:hover .logo-p {
+    stroke: #ffffff;
+    filter:
+        drop-shadow(0 0 5px #ffffff)
+        drop-shadow(0 0 12px #168cff);
+}
+
+.logo:hover .logo-infinity {
+    stroke: #35a7ff;
+    filter:
+        drop-shadow(0 0 6px #35a7ff)
+        drop-shadow(0 0 16px #168cff);
+}
 }
 
 .nav-links {
@@ -93,13 +147,19 @@ header {
     margin-bottom: 20px;
 }
 
-.hero h1 {
-    font-size: 60px;
-    font-weight: 900;
+.hero h1{
+    font-size: clamp(3rem, 8vw, 7rem);
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: #ffffff;
 }
 
-.hero h1 span {
-    color: #e50914;
+
+.hero h1 span{
+    color: #168cff;
+    text-shadow:
+        0 0 10px rgba(22, 140, 255, 0.5),
+        0 0 30px rgba(22, 140, 255, 0.25);
 }
 
 .hero p {
