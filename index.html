@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <!-- Google Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YOUR_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-YOUR_MEASUREMENT_ID');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Prashanth Shapuram - QA Engineer specializing in Test Automation, API Testing, Performance, and AI Agent Testing.">
+    <meta name="keywords" content="QA Engineer, Automation, Selenium, Java, Playwright, API Testing, AI Testing, MCP, Postman, TestNG">
+    <meta name="author" content="Prashanth Shapuram">
+
+    <!-- OpenGraph & Twitter Card Meta Tags -->
+    <meta property="og:title" content="PRASHANTH SHAPURAM | QA Engineer & AI Testing Specialist">
+    <meta property="og:description" content="Building reliable software through automation, API testing, quality engineering, and AI-driven technologies.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://prash8008.github.io/Prashanth_Techfolio/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PRASHANTH SHAPURAM | QA Engineer & AI Testing">
+    <meta name="twitter:description" content="QA Engineer specializing in Test Automation, REST APIs, and AI Agent Testing.">
+
+    <!-- Favicon (SVG Infinity Logo) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 180'><ellipse cx='95' cy='145' rx='35' ry='30' fill='none' stroke='%236C63FF' stroke-width='14'/><ellipse cx='165' cy='145' rx='35' ry='30' fill='none' stroke='%2300D9FF' stroke-width='14'/></svg>">
+
+    <title>PRASHANTH SHAPURAM | QA Engineer & AI Testing Specialist</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVIGATION ================= -->
+    <header class="header">
+        <nav class="navbar">
+
+            <a href="#home" class="brand-logo" aria-label="Prashanth Home">
+                <svg class="p-infinity-logo" viewBox="0 0 220 180" xmlns="http://www.w3.org/2000/svg">
+                    <path class="logo-p" d="M25 155 V20 H105 C145 20 165 40 165 70 C165 100 145 115 105 115 H25" />
+                    <ellipse class="logo-loop-a" cx="95" cy="145" rx="35" ry="30" />
+                    <ellipse class="logo-loop-b" cx="165" cy="145" rx="35" ry="30" />
+                </svg>
+                <span class="logo-text">PRASHANTH<span class="logo-accent">∞</span></span>
+            </a>
+
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#workflow">METHODOLOGY</a></li>
+                <li><a href="#expertise">EXPERTISE</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#tech-stack">TECH STACK</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li class="mobile-menu-cta">
+                    <a href="#resume-modal" class="btn btn-resume-nav resume-modal-trigger">
+                        DOWNLOAD RESUME <span class="btn-icon">↓</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="nav-actions">
+                <!-- Social quick links -->
+                <a href="https://github.com/prash8008" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub Profile">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                    </svg>
+                </a>
+                <a href="https://linkedin.com/in/prashanth-shapuram" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn Profile">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                        <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+                    </svg>
+                </a>
+
+                <!-- Resume Download Button -->
+                <a href="#resume-modal" class="btn btn-resume-nav" id="resume-nav-btn">
+                    RESUME <span class="btn-icon">↓</span>
+                </a>
+
+                <!-- Single Theme Toggle Button (Light by default) -->
+                <button id="theme-toggle" class="theme-toggle-single-btn" aria-label="Toggle Dark / Light Theme" title="Toggle Dark/Light Mode">
+                    <span id="theme-icon">🌙</span>
+                </button>
+
+                <!-- Mobile Hamburger Toggle -->
+                <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle Navigation Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+    <main>
+        <section id="home" class="hero">
+
+            <!-- AI Background -->
+            <div class="ai-background">
+                <canvas id="hero-particle-canvas"></canvas>
+                <div class="orb orb-one"></div>
+                <div class="orb orb-two"></div>
+                <div class="orb orb-three"></div>
+            </div>
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <div class="hero-intro">
+                    <span class="hero-badge"><span class="status-dot"></span> OPEN FOR QA & AI TESTING ROLES</span>
+                    <span class="hero-name-text">PRASHANTH SHAPURAM</span>
+                </div>
+
+                <h1 class="hero-title">
+                    PRASHANTH<span class="hero-title-accent">∞</span>
+                </h1>
+
+                <p class="hero-subtitle">
+                    QA Engineer <span class="divider">•</span> Automation <span class="divider">•</span> AI Testing
+                </p>
+
+                <p class="hero-description">
+                    Building reliable software through automation, API testing, quality engineering, and AI-driven technologies.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">
+                        VIEW MY WORK <span class="btn-arrow">→</span>
+                    </a>
+                    <a href="#resume-modal" class="btn btn-secondary resume-modal-trigger">
+                        DOWNLOAD RESUME <span class="btn-arrow">↓</span>
+                    </a>
+                </div>
+
+                <!-- Hero Quick Highlights Bar -->
+                <div class="hero-highlights">
+                    <span class="highlight-item"><strong>2+ Years</strong> Experience</span>
+                    <span class="highlight-separator">•</span>
+                    <span class="highlight-item">QA Automation</span>
+                    <span class="highlight-separator">•</span>
+                    <span class="highlight-item">API Testing</span>
+                    <span class="highlight-separator">•</span>
+                    <span class="highlight-item">AI Testing & MCP</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= STATS COUNTER BAR ================= -->
+        <section class="stats-bar-section">
+            <div class="stats-container">
+                <div class="stat-card" data-count="2">
+                    <div class="stat-value"><span class="counter" data-target="2">0</span><span class="stat-plus">+</span></div>
+                    <div class="stat-label">YEARS EXPERIENCE</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-card" data-count="10">
+                    <div class="stat-value"><span class="counter" data-target="10">0</span><span class="stat-plus">+</span></div>
+                    <div class="stat-label">TESTING TECHNOLOGIES</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-card" data-count="6">
+                    <div class="stat-value"><span class="counter" data-target="6">0</span><span class="stat-plus">+</span></div>
+                    <div class="stat-label">CERTIFICATIONS</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-card">
+                    <div class="stat-value"><span class="stat-infinity">∞</span></div>
+                    <div class="stat-label">CONTINUOUS LEARNING</div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+        <section id="about" class="section about-section">
+
+            <div class="section-label">
+                ABOUT
+            </div>
+
+            <h2 class="section-title">
+                ENGINEERING <span>QUALITY</span>
+            </h2>
+
+            <div class="about-content">
+
+                <div class="about-text">
+
+                    <p class="large-text">
+                        I am <strong>Prashanth Shapuram</strong>, a dedicated QA Engineer focused on building reliable, scalable, and high-quality software solutions.
+                    </p>
+
+                    <p>
+                        My expertise bridges traditional quality assurance with cutting-edge test automation, REST API validation, performance analysis, and autonomous AI system testing.
+                    </p>
+
+                    <p>
+                        I engineer robust test frameworks using <strong>Selenium, Java, Playwright, TestNG, Cucumber, Postman, and REST Assured</strong>, while actively pioneering test methodologies for <strong>AI Agents, Model Context Protocol (MCP), and Prompt Engineering</strong>.
+                    </p>
+
+                </div>
+
+                <!-- 3 Pillars Breakdown -->
+                <div class="pillars-grid">
+
+                    <div class="pillar-card">
+                        <div class="pillar-icon">🎯</div>
+                        <h3>QUALITY</h3>
+                        <p>Architecting comprehensive test strategies, edge-case coverage, and reliable software validation.</p>
+                    </div>
+
+                    <div class="pillar-card">
+                        <div class="pillar-icon">⚡</div>
+                        <h3>AUTOMATION</h3>
+                        <p>Building scalable Java, Selenium, Playwright, and CI/CD test automation pipelines.</p>
+                    </div>
+
+                    <div class="pillar-card">
+                        <div class="pillar-icon">🤖</div>
+                        <h3>AI TESTING</h3>
+                        <p>Validating autonomous AI agents, MCP integration, prompt engineering, and LLM behaviors.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= QA WORKFLOW (HOW I ENGINEER QUALITY) ================= -->
+        <section id="workflow" class="section workflow-section">
+
+            <div class="section-label">
+                METHODOLOGY
+            </div>
+
+            <h2 class="section-title">
+                HOW I ENGINEER <span>QUALITY</span>
+            </h2>
+
+            <p class="section-description">
+                A structured, engineering-first QA lifecycle that transforms requirements into robust, defect-free software.
+            </p>
+
+            <div class="workflow-pipeline">
+
+                <div class="workflow-step">
+                    <div class="step-content">
+                        <h3>REQUIREMENTS</h3>
+                        <p>Analyzing user stories, edge cases, acceptance criteria & gap analysis.</p>
+                    </div>
+                </div>
+
+                <div class="workflow-arrow">→</div>
+
+                <div class="workflow-step">
+                    <div class="step-content">
+                        <h3>TEST DESIGN</h3>
+                        <p>Crafting test plans, test matrices, and risk-based scenarios.</p>
+                    </div>
+                </div>
+
+                <div class="workflow-arrow">→</div>
+
+                <div class="workflow-step">
+                    <div class="step-content">
+                        <h3>MANUAL VALIDATION</h3>
+                        <p>Exploratory testing, UI/UX validation, and core sanity checks.</p>
+                    </div>
+                </div>
+
+                <div class="workflow-arrow">→</div>
+
+                <div class="workflow-step">
+                    <div class="step-content">
+                        <h3>AUTOMATION</h3>
+                        <p>Selenium, Playwright & Java POM test suite execution.</p>
+                    </div>
+                </div>
+
+                <div class="workflow-arrow">→</div>
+
+                <div class="workflow-step">
+                    <div class="step-content">
+                        <h3>API VALIDATION</h3>
+                        <p>REST Assured & Postman payload, status code & schema checks.</p>
+                    </div>
+                </div>
+
+                <div class="workflow-arrow">→</div>
+
+                <div class="workflow-step">
+                    <div class="step-content">
+                        <h3>PERFORMANCE</h3>
+                        <p>JMeter load & stress testing with response bottleneck analysis.</p>
+                    </div>
+                </div>
+
+                <div class="workflow-arrow">→</div>
+
+                <div class="workflow-step">
+                    <div class="step-content">
+                        <h3>CI/CD</h3>
+                        <p>Automated pipeline triggers via GitHub Actions & GitLab CI.</p>
+                    </div>
+                </div>
+
+                <div class="workflow-arrow">→</div>
+
+                <div class="workflow-step">
+                    <div class="step-content">
+                        <h3>REPORTING</h3>
+                        <p>Zephyr & Jira defect tracking, quality metrics & release sign-off.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EXPERTISE ================= -->
+        <section id="expertise" class="section expertise-section">
+
+            <div class="section-label">
+                EXPERTISE
+            </div>
+
+            <h2 class="section-title">
+                MY <span>EXPERTISE</span>
+            </h2>
+
+            <p class="section-description">
+                A combination of quality engineering, automation, APIs, performance, and AI.
+            </p>
+
+            <div class="service-container">
+
+                <article class="service-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="5" y="3" width="14" height="18" rx="2"></rect>
+                            <rect x="9" y="1.4" width="6" height="3" rx="1"></rect>
+                            <path d="M8.5 12.5l2.5 2.5 5-5"></path>
+                        </svg>
+                    </div>
+                    <h3>QA & TESTING</h3>
+                    <p>Functional, regression, smoke, sanity, system, integration, exploratory, and end-to-end testing.</p>
+                    <div class="card-line"></div>
+                </article>
+
+                <article class="service-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="4" width="18" height="16" rx="2"></rect>
+                            <path d="M3 8h18"></path>
+                            <circle cx="6" cy="6" r="0.6" fill="currentColor" stroke="none"></circle>
+                            <circle cx="8.6" cy="6" r="0.6" fill="currentColor" stroke="none"></circle>
+                            <path d="M10 12l4.5 2.5-4.5 2.5z" fill="currentColor" stroke="none"></path>
+                        </svg>
+                    </div>
+                    <h3>AUTOMATION</h3>
+                    <p>Selenium WebDriver, Java, TestNG, Cucumber BDD, Maven, and Playwright test automation.</p>
+                    <div class="card-line"></div>
+                </article>
+
+                <article class="service-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 8h13"></path>
+                            <path d="M14 4l3 4-3 4"></path>
+                            <path d="M20 16H7"></path>
+                            <path d="M10 12l-3 4 3 4"></path>
+                        </svg>
+                    </div>
+                    <h3>API TESTING</h3>
+                    <p>REST APIs, Postman collections, REST Assured, Swagger, JSON/XML validation, and response debugging.</p>
+                    <div class="card-line"></div>
+                </article>
+
+                <article class="service-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="5" y="7" width="14" height="10" rx="2"></rect>
+                            <line x1="12" y1="7" x2="12" y2="3"></line>
+                            <circle cx="12" cy="2.2" r="1" fill="currentColor" stroke="none"></circle>
+                            <circle cx="9" cy="12" r="1.3" fill="currentColor" stroke="none"></circle>
+                            <circle cx="15" cy="12" r="1.3" fill="currentColor" stroke="none"></circle>
+                            <line x1="2" y1="12" x2="5" y2="12"></line>
+                            <line x1="19" y1="12" x2="22" y2="12"></line>
+                        </svg>
+                    </div>
+                    <h3>AI & AGENTS</h3>
+                    <p>AI Autonomous Agents, Model Context Protocol (MCP), Prompt Engineering, and AI application validation.</p>
+                    <div class="card-line"></div>
+                </article>
+
+                <article class="service-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 15a8 8 0 1 1 16 0"></path>
+                            <line x1="12" y1="15" x2="16" y2="10"></line>
+                            <circle cx="12" cy="15" r="1.2" fill="currentColor" stroke="none"></circle>
+                        </svg>
+                    </div>
+                    <h3>PERFORMANCE</h3>
+                    <p>Apache JMeter performance testing, load simulation, throughput analysis, and system latency reporting.</p>
+                    <div class="card-line"></div>
+                </article>
+
+                <article class="service-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                        </svg>
+                    </div>
+                    <h3>TOOLS & DEV</h3>
+                    <p>Git, GitHub, GitLab, Jira, Zephyr, Confluence, Sauce Labs, Jenkins, and CI/CD pipelines.</p>
+                    <div class="card-line"></div>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+        <section id="projects" class="section projects-section">
+
+            <div class="section-label">
+                PROJECTS
+            </div>
+
+            <h2 class="section-title">
+                SELECTED <span>WORK</span>
+            </h2>
+
+            <p class="section-description">
+                Highlights of automated frameworks, API validation suites, and AI quality engineering projects.
+            </p>
+
+            <!-- Interactive Category Filter Pills -->
+            <div class="project-filters">
+                <button class="filter-pill active" data-filter="all">ALL PROJECTS</button>
+                <button class="filter-pill" data-filter="automation">AUTOMATION</button>
+                <button class="filter-pill" data-filter="api">API TESTING</button>
+                <button class="filter-pill" data-filter="ai">AI & MCP</button>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- Project Card 1 -->
+                <div class="project-card" data-category="automation">
+                    <div class="project-header">
+                        <span class="project-tag">TELECOM & ENTERPRISE</span>
+                    </div>
+                    <h3 class="project-title">FNET Portal</h3>
+                    <p class="project-desc">
+                        Customer self-service portal testing and test automation across web applications, REST APIs, and end-to-end user workflows.
+                    </p>
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>Selenium</span>
+                        <span>TestNG</span>
+                        <span>REST API</span>
+                    </div>
+                    <div class="project-card-actions">
+                        <button class="project-details-btn" data-project="fnet">
+                            VIEW DETAILS <span class="arrow">→</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card" data-category="api">
+                    <div class="project-header">
+                        <span class="project-tag">FINTECH & BILLING</span>
+                    </div>
+                    <h3 class="project-title">Paymentus Migration</h3>
+                    <p class="project-desc">
+                        Extensive API and UI validation for billing systems, autopay workflows, payment profiles, and database migration scenarios.
+                    </p>
+                    <div class="project-tech">
+                        <span>REST Assured</span>
+                        <span>Postman</span>
+                        <span>API Testing</span>
+                        <span>SQL</span>
+                    </div>
+                    <div class="project-card-actions">
+                        <button class="project-details-btn" data-project="paymentus">
+                            VIEW DETAILS <span class="arrow">→</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="project-card" data-category="ai">
+                    <div class="project-header">
+                        <span class="project-tag">AI & MCP AGENTS</span>
+                    </div>
+                    <h3 class="project-title">AI Agent Testing</h3>
+                    <p class="project-desc">
+                        Testing methodologies for autonomous AI agents, Model Context Protocol (MCP) integrations, prompt engineering, and LLM output accuracy.
+                    </p>
+                    <div class="project-tech">
+                        <span>AI Agents</span>
+                        <span>MCP</span>
+                        <span>Prompt Eng.</span>
+                        <span>Python</span>
+                    </div>
+                    <div class="project-card-actions">
+                        <button class="project-details-btn" data-project="ai-agent">
+                            VIEW DETAILS <span class="arrow">→</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Project Card 4 -->
+                <div class="project-card" data-category="automation">
+                    <div class="project-header">
+                        <span class="project-tag">AUTOMATION FRAMEWORK</span>
+                    </div>
+                    <h3 class="project-title">Test Automation Framework</h3>
+                    <p class="project-desc">
+                        Enterprise-grade Selenium + Java + TestNG + Maven + Cucumber BDD automation framework with parallel execution and HTML reports.
+                    </p>
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>Selenium</span>
+                        <span>TestNG</span>
+                        <span>Cucumber</span>
+                        <span>Maven</span>
+                    </div>
+                    <div class="project-card-actions">
+                        <button class="project-details-btn" data-project="framework">
+                            VIEW DETAILS <span class="arrow">→</span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= TECH STACK MATRIX ================= -->
+        <section id="tech-stack" class="section tech-stack-section">
+
+            <div class="section-label">
+                TECH STACK
+            </div>
+
+            <h2 class="section-title">
+                TECHNICAL <span>STACK</span>
+            </h2>
+
+            <p class="section-description">
+                A detailed breakdown of programming languages, automation tools, API frameworks, and AI technologies.
+            </p>
+
+            <div class="stack-matrix-grid">
+
+                <div class="stack-category">
+                    <div class="category-header">
+                        <span class="category-icon">💻</span>
+                        <h4>LANGUAGES</h4>
+                    </div>
+                    <div class="stack-tags">
+                        <div class="stack-badge">Java</div>
+                        <div class="stack-badge">Python</div>
+                        <div class="stack-badge">C#</div>
+                        <div class="stack-badge">SQL</div>
+                        <div class="stack-badge">HTML5 / CSS3</div>
+                    </div>
+                </div>
+
+                <div class="stack-category">
+                    <div class="category-header">
+                        <span class="category-icon">⚡</span>
+                        <h4>AUTOMATION</h4>
+                    </div>
+                    <div class="stack-tags">
+                        <div class="stack-badge">Selenium WebDriver</div>
+                        <div class="stack-badge">Playwright</div>
+                        <div class="stack-badge">TestNG</div>
+                        <div class="stack-badge">Cucumber BDD</div>
+                        <div class="stack-badge">Maven</div>
+                    </div>
+                </div>
+
+                <div class="stack-category">
+                    <div class="category-header">
+                        <span class="category-icon">🔌</span>
+                        <h4>API & PERFORMANCE</h4>
+                    </div>
+                    <div class="stack-tags">
+                        <div class="stack-badge">Postman</div>
+                        <div class="stack-badge">REST Assured</div>
+                        <div class="stack-badge">Swagger / OpenAPI</div>
+                        <div class="stack-badge">Apache JMeter</div>
+                        <div class="stack-badge">Charles Proxy</div>
+                    </div>
+                </div>
+
+                <div class="stack-category">
+                    <div class="category-header">
+                        <span class="category-icon">🤖</span>
+                        <h4>AI & EMERGING</h4>
+                    </div>
+                    <div class="stack-tags">
+                        <div class="stack-badge">AI Agents</div>
+                        <div class="stack-badge">Model Context Protocol (MCP)</div>
+                        <div class="stack-badge">Prompt Engineering</div>
+                        <div class="stack-badge">AI Testing</div>
+                        <div class="stack-badge">LLM Validation</div>
+                    </div>
+                </div>
+
+                <div class="stack-category">
+                    <div class="category-header">
+                        <span class="category-icon">🛠️</span>
+                        <h4>TOOLS & DEVOPS</h4>
+                    </div>
+                    <div class="stack-tags">
+                        <div class="stack-badge">Git</div>
+                        <div class="stack-badge">GitHub</div>
+                        <div class="stack-badge">GitLab</div>
+                        <div class="stack-badge">Jira</div>
+                        <div class="stack-badge">Zephyr</div>
+                        <div class="stack-badge">Confluence</div>
+                        <div class="stack-badge">Sauce Labs</div>
+                        <div class="stack-badge">Jenkins / CI/CD</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CAREER TIMELINE ================= -->
+        <section id="experience" class="section timeline-section">
+
+            <div class="section-label">
+                CAREER
+            </div>
+
+            <h2 class="section-title">
+                CAREER <span>TIMELINE</span>
+            </h2>
+
+            <p class="section-description">
+                My professional evolution over 2+ years of QA, automation, and AI quality engineering.
+            </p>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2024</span>
+                        <h3>QA Intern</h3>
+                        <p class="timeline-role">Manual Testing & Test Execution</p>
+                        <ul>
+                            <li>Authored and executed manual test cases for web and desktop applications.</li>
+                            <li>Identified functional defects, managed defect lifecycles in Jira, and performed regression sanity checks.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2025</span>
+                        <h3>QA Engineer</h3>
+                        <p class="timeline-role">Automation, API Testing & Telecom Applications</p>
+                        <ul>
+                            <li>Built and expanded Selenium + Java + TestNG + Cucumber automation frameworks.</li>
+                            <li>Executed extensive REST API testing using Postman and REST Assured for payment migration and self-service portals.</li>
+                            <li>Integrated automated tests into CI/CD pipelines to streamline deployment verification.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot active"></div>
+                    <div class="timeline-content active-content">
+                        <span class="timeline-year">2026 — PRESENT</span>
+                        <h3>AI Quality Engineer & Innovator</h3>
+                        <p class="timeline-role">AI Application Testing, Autonomous Agents & Playwright</p>
+                        <ul>
+                            <li>Pioneered quality assurance protocols for AI Agents, Model Context Protocol (MCP), and prompt validation.</li>
+                            <li>Adopted Playwright for modern, resilient, cross-browser web automation.</li>
+                            <li>Advancing intelligent, self-healing test automation strategies.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CERTIFICATIONS ================= -->
+        <section id="certifications" class="section certs-section">
+
+            <div class="section-label">
+                CERTIFICATIONS
+            </div>
+
+            <h2 class="section-title">
+                PROFESSIONAL <span>CERTIFICATIONS</span>
+            </h2>
+
+            <p class="section-description">
+                Continuous learning credentials in APIs, DevOps, SQL, and AI technologies.
+            </p>
+
+            <div class="certs-grid">
+
+                <div class="cert-card">
+                    <div class="cert-icon">📜</div>
+                    <h3>Postman API Fundamentals</h3>
+                    <p class="cert-issuer">Postman Student Expert</p>
+                    <span class="cert-tag">API & REST</span>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">🐙</div>
+                    <h3>GitHub Foundations</h3>
+                    <p class="cert-issuer">GitHub</p>
+                    <span class="cert-tag">Version Control & DevOps</span>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">🗄️</div>
+                    <h3>SQL Basics</h3>
+                    <p class="cert-issuer">HackerRank / Industry</p>
+                    <span class="cert-tag">Databases & Queries</span>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">🤖</div>
+                    <h3>Claude 101</h3>
+                    <p class="cert-issuer">Anthropic / AI Education</p>
+                    <span class="cert-tag">AI Fundamentals</span>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">🧠</div>
+                    <h3>Prompt Engineering</h3>
+                    <p class="cert-issuer">DeepLearning.AI</p>
+                    <span class="cert-tag">LLMs & Prompt Design</span>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">🔗</div>
+                    <h3>Introduction to MCP</h3>
+                    <p class="cert-issuer">Anthropic / Model Context Protocol</p>
+                    <span class="cert-tag">AI Agent Protocols</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CURRENTLY EXPLORING (INTERACTIVE TERMINAL) ================= -->
+        <section id="exploring" class="section exploring-section">
+
+            <div class="section-label">
+                EXPLORING
+            </div>
+
+            <h2 class="section-title">
+                CURRENTLY <span>EXPLORING</span>
+            </h2>
+
+            <p class="section-description">
+                Staying at the bleeding edge of AI-assisted QA, autonomous agents, and next-gen frameworks. Click terminal buttons below to test commands!
+            </p>
+
+            <div class="terminal-window">
+
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span class="btn-close"></span>
+                        <span class="btn-minimize"></span>
+                        <span class="btn-expand"></span>
+                    </div>
+                    <div class="terminal-title">bash — prashanth@qa-ai-lab:~</div>
+                </div>
+
+                <div class="terminal-body" id="terminal-output">
+                    <div class="terminal-line"><span class="term-prompt">$</span> <span class="term-cmd">currently_exploring</span> <span class="term-flag">--verbose</span></div>
+                    <div class="terminal-response">
+                        <div class="term-item"><span class="term-check">[✔]</span> <strong class="term-highlight">AI AGENTS:</strong> Multi-agent orchestration, tool routing & testing</div>
+                        <div class="term-item"><span class="term-check">[✔]</span> <strong class="term-highlight">MODEL CONTEXT PROTOCOL (MCP):</strong> Server/Client tool protocol validation</div>
+                        <div class="term-item"><span class="term-check">[✔]</span> <strong class="term-highlight">AI APPLICATION TESTING:</strong> Hallucination checks, prompt regression & metric evaluation</div>
+                        <div class="term-item"><span class="term-check">[✔]</span> <strong class="term-highlight">PROMPT ENGINEERING:</strong> Structured outputs, system prompts & zero-shot validation</div>
+                        <div class="term-item"><span class="term-check">[✔]</span> <strong class="term-highlight">PLAYWRIGHT:</strong> Fast, resilient end-to-end cross-browser automation</div>
+                        <div class="term-item"><span class="term-check">[✔]</span> <strong class="term-highlight">AUTONOMOUS QA:</strong> AI-driven test script generation & self-healing selectors</div>
+                    </div>
+                </div>
+
+                <!-- Interactive Command Input Form -->
+                <form id="terminal-input-form" class="terminal-input-line">
+                    <span class="term-prompt">$</span>
+                    <input type="text" id="terminal-input" placeholder="Type a command (e.g. 'help', 'skills', 'test', 'hire', 'clear')..." autocomplete="off" spellcheck="false">
+                    <button type="submit" class="term-submit-btn">Run</button>
+                </form>
+
+                <!-- Interactive Command Buttons Bar -->
+                <div class="terminal-quick-cmds">
+                    <span class="cmd-label">Quick Commands:</span>
+                    <button class="term-cmd-btn" data-cmd="help">help</button>
+                    <button class="term-cmd-btn" data-cmd="skills">skills</button>
+                    <button class="term-cmd-btn" data-cmd="contact">contact</button>
+                    <button class="term-cmd-btn" data-cmd="hire">sudo hire</button>
+                    <button class="term-cmd-btn" data-cmd="clear">clear</button>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+        <section id="contact" class="section contact-section">
+
+            <div class="contact-glow"></div>
+
+            <div class="section-label">
+                CONTACT
+            </div>
+
+            <h2 class="section-title">
+                LET'S BUILD <span>THE FUTURE.</span>
+            </h2>
+
+            <p class="contact-lead">
+                Interested in AI testing, test automation, quality engineering, or innovative tech solutions? Let's connect.
+            </p>
+
+            <div class="contact-cards-container">
+
+                <a href="mailto:shapuramprashanth6@gmail.com" class="contact-card copy-email-btn" title="Click to copy email">
+                    <div class="contact-card-icon">✉️</div>
+                    <div class="contact-card-text">
+                        <span class="contact-card-label">EMAIL ME (CLICK TO COPY)</span>
+                        <span class="contact-card-val">shapuramprashanth6@gmail.com</span>
+                    </div>
+                    <span class="contact-arrow">📋</span>
+                </a>
+
+                <a href="https://linkedin.com/in/prashanth-shapuram" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <div class="contact-card-icon">💼</div>
+                    <div class="contact-card-text">
+                        <span class="contact-card-label">LINKEDIN</span>
+                        <span class="contact-card-val">linkedin.com/in/prashanth-shapuram</span>
+                    </div>
+                    <span class="contact-arrow">→</span>
+                </a>
+
+                <a href="https://github.com/prash8008" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <div class="contact-card-icon">🐙</div>
+                    <div class="contact-card-text">
+                        <span class="contact-card-label">GITHUB</span>
+                        <span class="contact-card-val">github.com/prash8008</span>
+                    </div>
+                    <span class="contact-arrow">→</span>
+                </a>
+
+            </div>
+
+            <div class="contact-cta-wrapper">
+                <a href="mailto:shapuramprashanth6@gmail.com" class="btn contact-button copy-email-btn">
+                    SEND MESSAGE <span class="button-arrow">→</span>
+                </a>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FLOATING SCROLL TO TOP BUTTON ================= -->
+    <button id="scroll-to-top" class="scroll-top-btn" aria-label="Scroll to top" title="Back to top">
+        ↑
+    </button>
+
+
+    <!-- ================= TOAST NOTIFICATION ================= -->
+    <div id="toast-notification" class="toast-notification">
+        ✓ Email copied to clipboard!
+    </div>
+
+
+    <!-- ================= PROJECT DETAILS MODAL ================= -->
+    <div id="project-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close" aria-label="Close Modal">&times;</button>
+            <div id="modal-body">
+                <!-- Dynamic Content Populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ================= RESUME MODAL ================= -->
+    <div id="resume-modal" class="modal-overlay">
+        <div class="modal-content resume-modal-content">
+            <button class="modal-close" id="resume-modal-close" aria-label="Close Modal">&times;</button>
+            <div class="resume-modal-header">
+                <h2>PRASHANTH SHAPURAM</h2>
+                <p>QA Engineer | Automation | API Testing | AI Testing</p>
+            </div>
+            <div class="resume-modal-body">
+                <p><strong>Email:</strong> shapuramprashanth6@gmail.com <button class="copy-email-btn inline-copy-btn">📋 Copy</button></p>
+                <p><strong>GitHub:</strong> github.com/prash8008 | <strong>LinkedIn:</strong> linkedin.com/in/prashanth-shapuram</p>
+                <hr class="modal-hr">
+                <h3>Executive Summary</h3>
+                <p>QA Engineer with 2+ years of hands-on experience in manual testing, test automation (Selenium, Playwright, Java, TestNG, Cucumber), REST API testing, and performance validation. Passionate about pioneering AI Agent testing and MCP protocol validation.</p>
+                
+                <h3>Core Competencies</h3>
+                <ul>
+                    <li><strong>Test Automation:</strong> Selenium WebDriver, Playwright, Java, TestNG, Cucumber BDD, Maven</li>
+                    <li><strong>API Testing:</strong> Postman, REST Assured, REST APIs, Swagger, Payload Validation</li>
+                    <li><strong>AI & Emerging Tech:</strong> AI Autonomous Agents, Model Context Protocol (MCP), Prompt Engineering</li>
+                    <li><strong>DevOps & Tools:</strong> Git, GitHub, GitLab, Jira, Zephyr, Sauce Labs, Jenkins CI/CD</li>
+                </ul>
+            </div>
+            <div class="resume-modal-footer">
+                <a href="mailto:shapuramprashanth6@gmail.com?subject=Resume%20Request%20-%20Prashanth%20Shapuram" class="btn btn-primary">
+                    REQUEST FULL RESUME PDF <span class="btn-arrow">→</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-col footer-brand">
+                <div class="footer-logo">
+                    PRASHANTH<span class="logo-accent">∞</span>
+                </div>
+                <p class="footer-tagline">
+                    QA Engineer • Automation • API • AI Testing
+                </p>
+                <p class="footer-bio">
+                    Building reliable software through automation, quality engineering, and AI technologies.
+                </p>
+
+                <!-- Footer Social Logo Row -->
+                <div class="footer-social-icons">
+                    <a href="https://github.com/prash8008" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="GitHub Profile" title="GitHub">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/in/prashanth-shapuram" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="LinkedIn Profile" title="LinkedIn">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                            <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+                        </svg>
+                    </a>
+                    <a href="mailto:shapuramprashanth6@gmail.com" class="footer-social-btn copy-email-btn" aria-label="Email Prashanth" title="Click to copy email">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 6h18v12H3z"/>
+                            <path d="M3 6l9 7 9-7"/>
+                        </svg>
+                    </a>
+                    <a href="#resume-modal" class="footer-social-btn resume-modal-trigger" aria-label="View Resume" title="Resume">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/>
+                            <path d="M14 2v6h6"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>NAVIGATION</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#expertise">Expertise</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#tech-stack">Tech Stack</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>CONNECT</h4>
+                <ul class="footer-links footer-links-icon">
+                    <li>
+                        <a href="https://github.com/prash8008" target="_blank" rel="noopener noreferrer">
+                            <svg class="footer-link-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                            </svg>
+                            GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/prashanth-shapuram" target="_blank" rel="noopener noreferrer">
+                            <svg class="footer-link-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+                            </svg>
+                            LinkedIn
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:shapuramprashanth6@gmail.com" class="copy-email-btn" title="Click to copy email">
+                            <svg class="footer-link-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M3 6h18v12H3z"/>
+                                <path d="M3 6l9 7 9-7"/>
+                            </svg>
+                            shapuramprashanth6@gmail.com
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#resume-modal" class="resume-modal-trigger">
+                            <svg class="footer-link-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/>
+                                <path d="M14 2v6h6"/>
+                            </svg>
+                            Resume
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-line"></div>
+
+        <div class="footer-bottom">
+            <p class="copyright">
+                © 2026 Prashanth Shapuram. All Rights Reserved. Designed & Engineered with Quality.
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
